@@ -2,11 +2,33 @@
 // Option A: Include all of Bootstrap
 
 // Include any default variable overrides here (though functions won't be available)
+$primary: #cd2030;
 
 @import "../node_modules/bootstrap/scss/bootstrap";
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap');
 
 // Then add additional custom code here
-.component-01,
-.component-02{
+body{
+    font-family: 'Open Sans', sans-serif;
+    background-color: #0e1414;
+    color: #fff;
+}
+h1, h2, h3{
+    font-weight: 300;
+}
+h4, h5, h6{
+    font-weight: 600;
+}
+p{
+    font-weight: 300;
+}
+.component-01, .component-02{
     padding: 60px 0;
+}
+
+.custom-border-bottom{
+    border-bottom: 3px solid $primary;
+}
+.custom-border-bottom-link{
+    border-bottom: 1px solid $primary;
 }
