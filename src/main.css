@@ -11975,4 +11975,8 @@ textarea.form-control-lg {
   .d-print-none {
     display: none !important;
   }
-}/*# sourceMappingURL=main.css.map */
+}
+.component-01,
+.component-02 {
+  padding: 60px 0;
+}
